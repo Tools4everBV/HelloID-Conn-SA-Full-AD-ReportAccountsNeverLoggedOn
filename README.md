@@ -45,7 +45,7 @@ This Delegated Form uses the following resources in order to run
 ### Powershell data source 'AD-user-generate-table-report-never-logged-on'
 This Powershell data source runs an Active Directory query to select the AD user accounts that match this report. It uses an array of Active Directory OU's specified as HelloID user defined variable named _"ADusersReportOU"_ to specify the report scoping.
 
-### Delegated form task 'AD-export-report-accounts-never-logged-on'
+### Delegated form task 'AD - Report - Accounts that have never logged on'
 This delegated form task runs the same Active Directory query as the task data source (AD query is defined at two places) and export the data to a local CSV file if selected in the form.
 
 ## Getting help
